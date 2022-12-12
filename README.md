@@ -39,4 +39,6 @@ Top10 Precision Score : [0.9035330793210946, 0.9549705576723242, 0.9670938690682
 
 ## Reference
 
+- [BM25](https://github.com/dorianbrown/rank_bm25)
 - [KoSentenceBERT-SKT](https://github.com/BM-K/KoSentenceBERT-SKT)
+- [Pynori](https://github.com/gritmind/python-nori)
