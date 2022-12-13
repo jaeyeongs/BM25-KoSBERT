@@ -1,8 +1,9 @@
 # BM25-KoSBERT
 
-- [BM25](https://github.com/jaeyeongs/bm25) 알고리즘에 KoSentence-BERT 모델을 활용하여 Reranking 모듈을 추가한 정보 검색 엔진
-- 형태소 분석기 Nori를 Tokenizer로 사용
-- 모델에 대한 더 자세한 내용은 [여기](https://github.com/jaeyeongs/research-develpoment/tree/main/Model/BM25-KoSBERT) 에서 확인
+- [BM25](https://github.com/jaeyeongs/bm25) 알고리즘에 KoSentence-BERT 모델을 활용하여 Reranking 모듈을 추가한 정보 검색 엔진입니다.
+- 형태소 분석기 pynori를 Tokenizer로 사용하였습니다.
+
+> 모델에 대한 더 자세한 내용은 다음 [링크](https://github.com/jaeyeongs/research-develpoment/tree/main/Model/BM25-KoSBERT)를 참고해주세요. 
 
 ## Installation
 
@@ -13,14 +14,22 @@ pip install -r requirements.txt
 
 ## Train Models
 
-## Pre-Trained Models
-
 ## Performance
 
-|  | BM25+KoSentence-BERT(Kkma) | BM25+KoSentence-BERT(Nori) |
-| :---: | :---: | :---: |
-| MRR | 0.9216 | **0.9374** |
-| Precision(k=10) | 0.9846 | **0.9889** |
+- 모델 평가는 모두 KorQuAD_v1.0_dev Dataset으로 진행하였습니다.
+- 각 Dataset 별로 훈련에 모델을 가지고 평가한 결과입니다.
+
+|  | **STS + NLI** | **KorQuAD_STS** | **PairedQuestion_v.2** | **KorQuAD_v1.0 + PairedQuestion_v.2** |
+| :---: | :---: | :---: | :---: | :---: |
+| MRR | 0.727 | 0.765 | 0.832 | 0.835 |
+| Precision(k=10) | 0.899 | 0.898 | 0.899 | 0.898 |
+
+- 모델 고도화를 위해 형태소 분석기(pynori) 모듈을 추가한 후 성능 평가한 결과입니다.
+
+|  | **BM25 + KoSentence-BERT** |
+| :---: | :---: |
+| MRR | 0.9374 |
+| Precision(k=10) | 0.9889 |
 
 ## Application Examples
 
