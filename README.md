@@ -46,7 +46,24 @@ python train.py
 ```
 
 ## Pre-Trained Models
+
+- pooling mode는 MEAN-strategy를 사용하였으며, 학습시 모델은 output 디렉토리에 저장 됩니다.
+- 학습된 pt 파일은 아래 링크에 다운로드 가능합니다.
+
+| **디렉토리** | **학습 방법** |
+| :---: | :---: |
+| training_nli | Only Train NLI |
+| training_sts | Only Train STS |
+| training_nli_sts | STS + NLI |
+
 [Pre-trained Model Download](https://drive.google.com/drive/folders/1fLYRi7W6J3rxt-KdGALBXMUS2W4Re7II)
+
+![image](https://user-images.githubusercontent.com/87981867/208038247-e2f671ba-61fd-4dc5-9165-8b372ca7b593.png)
+
+각 폴더에 있는 result파일을 output 디렉토리에 넣으시면 됩니다.
+
+ex) sts 학습 파일 사용시 위 드라이브에서 sts/result.pt 파일을 output/training_sts/0_Transformer에 넣으시면 됩니다.
+output/training_sts/0_Transformer/result.pt
 
 ## Performance
 
