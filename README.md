@@ -1,6 +1,7 @@
 # BM25-KoSBERT
 
 - [BM25](https://github.com/jaeyeongs/bm25) 알고리즘에 KoSentence-BERT 모델을 활용하여 재순서화 모듈을 추가한 정보 검색 엔진입니다.
+- 재순서화 모델은 BM-K님의 [KoSentenceBERT-SKT](https://github.com/BM-K/KoSentenceBERT-SKT)를 참고하였습니다. 
 - 형태소 분석기 pynori를 Tokenizer로 사용하였습니다.
 
 > 모델에 대한 더 자세한 내용은 다음 [링크](https://github.com/jaeyeongs/research-develpoment/tree/main/Model/BM25-KoSBERT)를 참고해주세요. 
