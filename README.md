@@ -4,7 +4,7 @@
 - 재순서화 모델은 BM-K님의 [KoSentenceBERT-SKT](https://github.com/BM-K/KoSentenceBERT-SKT)를 참고하였습니다. 
 - 형태소 분석기 pynori를 Tokenizer로 사용하였습니다.
 
-> 모델에 대한 더 자세한 내용은 다음 [링크](https://github.com/jaeyeongs/research-develpoment/tree/main/Model/BM25-KoSBERT)를 참고해주세요. 
+> 모델에 대한 더 자세한 내용은 [링크](https://github.com/jaeyeongs/research-develpoment/tree/main/Model/BM25-KoSBERT)를 참고해주세요. 
 
 ## Installation
 
@@ -57,7 +57,7 @@ python train.py
 | training_sts | Only Train STS |
 | training_nli_sts | STS + NLI |
 
-[Pre-trained Model Download](https://drive.google.com/drive/folders/1fLYRi7W6J3rxt-KdGALBXMUS2W4Re7II)
+[[Pre-trained Model Download]](https://drive.google.com/drive/folders/1fLYRi7W6J3rxt-KdGALBXMUS2W4Re7II)
 
 ![image](https://user-images.githubusercontent.com/87981867/208038247-e2f671ba-61fd-4dc5-9165-8b372ca7b593.png)
 
