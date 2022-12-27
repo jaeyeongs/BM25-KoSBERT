@@ -4,7 +4,7 @@
 - 재순서화 모델은 BM-K님의 [KoSentenceBERT-SKT](https://github.com/BM-K/KoSentenceBERT-SKT)를 참고하였습니다. 
 - 형태소 분석기 pynori를 Tokenizer로 사용하였습니다.
 
-> 모델에 대한 더 자세한 내용은 [링크](https://github.com/jaeyeongs/research-develpoment/tree/main/Model/BM25-KoSBERT)를 참고해주세요. 
+> *모델에 대한 더 자세한 내용은 [링크](https://github.com/jaeyeongs/research-develpoment/tree/main/Model/BM25-KoSBERT)를 참고해주세요.*
 
 ## Installation
 
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 - 학습 데이터는 STS 데이터 구조에 맞게 수정하였으며, 학습 방법은 아래와 같습니다.
 
-```
+```python
 with open('./MergeDataset/korquad_korpair_test.csv', 'rt', encoding='utf-8') as fIn: # 데이터 경로 설정
     lines = fIn.readlines()
     for line in lines:
