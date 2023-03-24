@@ -69,7 +69,7 @@ output/training_sts/0_Transformer/result.pt
 ## Performance
 
 - 모델 평가는 모두 KorQuAD_v1.0_dev Dataset으로 진행하였습니다.
-- 각 Dataset 별로 훈련에 모델을 가지고 평가한 결과입니다.
+- 각 Dataset 별로 훈련된 모델을 가지고 평가한 결과입니다.
 
 |  | **STS + NLI** | **KorQuAD_STS** | **PairedQuestion_v.2** | **KorQuAD_v1.0 + PairedQuestion_v.2** |
 | :---: | :---: | :---: | :---: | :---: |
