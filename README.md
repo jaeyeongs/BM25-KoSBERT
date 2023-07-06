@@ -101,7 +101,7 @@ Reranking Score : 0.202
 
 ### Evaluate
 
-- **evaluate.py**를 실행하면 모델 성능 지표인 [MRR](https://github.com/jaeyeongs/research-develpoment/tree/main/IR/metric/mrr) 값과 [Precision](https://github.com/jaeyeongs/research-develpoment/tree/main/IR/metric/precisionk) 값을 출력해줍니다.
+- **evaluate.py**를 실행하면 모델 성능 지표인 MRR과 Precision 값을 출력해줍니다.
 - *Top10 Precision Score* 는 정답 문서가 1~10번째 나올 확률 값 입니다.
 
 ```
